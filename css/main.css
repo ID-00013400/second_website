@@ -1,0 +1,68 @@
+body {
+	margin: 0px;
+	padding: 0px;
+	box-sizing: border-box;
+	color: white;
+}
+
+.container {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	height: 89.3vh;
+	background-image: url('../img/bg-cat.jpg');
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	padding: 50px;
+
+}
+
+.one, .four {
+	display: flex;
+	justify-content: space-between;
+	text-transform: uppercase;
+}
+
+.one a {
+	text-decoration: none;
+	font-family: sans-serif;
+	color: white;
+
+}
+
+.two {
+	text-align: center;
+}
+
+.two h3 {
+	text-transform: uppercase;
+	font-weight: normal;
+	font-size: 25px;
+
+}
+
+.two h1 {
+	font-size: 150px;
+	text-transform: uppercase;
+	padding-top: 80px;
+}
+
+.three {
+	text-align: center;
+	text-transform: uppercase;
+
+}
+
+.three > h2 {
+	font-size: 40px;
+}
+
+.four a {
+	text-decoration: none;
+	color: white;
+}
+
+#instagram {
+	padding-right: 10px;
+}
